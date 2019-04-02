@@ -1,7 +1,7 @@
 # Flask-test
 Learning to do a simple web app using flask :)
 
-I need to know some basics on what does it take to make a web server, do routing, template rendering and APIs building, 
+I need to know some basics on what does it take to make a web server, do routing, template rendering and API building, 
 for a later personal project which will consist in a very simple web app which will depend on all that i just mentioned
 and a database connection of course.
 I'll be using python because it's very easy to implement and very readable specially if I want to add more contributors later
