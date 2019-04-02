@@ -1,0 +1,15 @@
+.container {
+   background: rgb(90, 201, 158);
+   color: white;
+   width: 280px;
+   padding-bottom: 10px;
+   border: 2px dashed black;
+}
+
+.menu {
+    margin-left: 76px;
+}
+
+#titulo-navbar {
+    padding: 10px; 
+}

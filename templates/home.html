@@ -6,7 +6,12 @@
     <title>Template/Home</title>
 </head>
 <body>
+    {% extends "template.html" %}  <!--recibe el navegador de contenido desde la template padre (template.html)-->
+    {% block content %}
+
     <h1>*** Home route ***</h1>
-    <p>/////////////////////</p>
+    <p>//////////////////////////////////////////////////////////////</p>
+
+    {% endblock %}
 </body>
 </html>

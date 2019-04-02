@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <!--<script type="text/javascript" src="/Flask/static"></script>-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
     <title>Parent Template</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="titulo-navbar">My First Web App</h1>
+        <strong><nav>
+            <ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </nav></strong>
+    </div>
+
+    {% block content %}
+    {% endblock %}
 </body>
 </html>
